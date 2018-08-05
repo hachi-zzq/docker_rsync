@@ -1,0 +1,3 @@
+#! /bin/sh
+
+rsync -az --exclude "logs/" --exclude "framework/" --exclude "app/public/" /opt/src/ /opt/des/
